@@ -1,0 +1,8 @@
+- Para Obtener todas las cuentas de ejemplo del contrato:
+
+      web3.eth.getAccounts().then(e => console.log(e));
+
+- Para crear una instancia del contrato desplegado
+
+      DummyToken.deployed().then(function(instance){app=instance;])
+      
