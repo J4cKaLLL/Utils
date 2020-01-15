@@ -6,3 +6,18 @@
 
       DummyToken.deployed().then(function(instance){app=instance;])
       
+- Para mostrar las funciones disponibles del contrato
+      
+      app
+ 
+ - Para asignar la pŕimera address a una variable
+ 
+      web3.eth.getAccounts().then( function(s){FirstA=s[0]})
+      web3.eth.getAccounts().then( function(s){SecondA=s[1]})
+      web3.eth.getAccounts().then( function(s){ThirdA=s[2]})
+      
+ - Para mostrar las direcciones:
+ 
+      FirstA
+      SecondA
+      ThirdA
