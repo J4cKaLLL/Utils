@@ -41,3 +41,12 @@ Como resultado las 'words' aumnetan.
       
   Esto transfiere 9 desde SecondA a FirstA
 
+- Para habilitar una cuenta para transferir a un tercero desde otra cuenta:
+
+      app.approve(SecondA,11,{from:ThirdA})
+      
+- Para consultar cuanto esta habilitado a trasnferir:
+
+      app.allowance(ThirdA, SecondA)
+      
+El resultado deberia ser 11
