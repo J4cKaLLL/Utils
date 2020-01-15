@@ -4,7 +4,7 @@
 
 - Para crear una instancia del contrato desplegado
 
-      DummyToken.deployed().then(function(instance){app=instance;])
+      DummyToken.deployed().then(function(instance){app=instance;})
       
 - Para mostrar las funciones disponibles del contrato
       
@@ -21,3 +21,17 @@
       FirstA
       SecondA
       ThirdA
+
+- Para minar Tokens
+
+      app.mine({from: FirstA})
+      app.mine({from: SecondA})
+      app.mine({from: ThirdA})
+      
+- Luego de minar para obtener los balances:
+      app.balanceOf(FirstA)
+      app.balanceOf(SecondA)
+      app.balanceOf(ThirdA)
+      
+Como resultado las 'words' aumnetan. 
+
