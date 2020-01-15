@@ -35,3 +35,9 @@
       
 Como resultado las 'words' aumnetan. 
 
+- Para hacer una transferencia
+
+      app.trasnfer(FirstA,9,{from: SecondA})
+      
+  Esto transfiere 9 desde SecondA a FirstA
+
