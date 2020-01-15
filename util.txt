@@ -50,3 +50,7 @@ Como resultado las 'words' aumnetan.
       app.allowance(ThirdA, SecondA)
       
 El resultado deberia ser 11
+
+- Para enviar el balance desde la cuenta 2 a la cuenta 3 usando el balance de la cuenta 1
+
+
